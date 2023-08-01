@@ -1,20 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
+body{
+    font-family: 'Handjet', cursive;
+}
 
-.sourceForm{
-    max-width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.sourceForm2{
-    max-width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 80px;
-}
-.Theme{
-    background-color: black;
-    padding: 10px;
-    border-radius: 30px;
-}
 .button_theme{
     float: right;
 }

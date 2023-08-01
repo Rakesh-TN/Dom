@@ -16,21 +16,29 @@ function changeEvent() {
     let dob = document.querySelector('#inGender').value
     let dobEl = document.querySelector('#outGender')
     dobEl.textContent = dob
+
+    let add = document.querySelector('#inAddress').value
+    let addEl = document.querySelector('#outAddress')
+    addEl.textContent = add
     
     let gen = document.querySelector('#indaofBirth').value
     let genEl = document.querySelector('#outdaofBirth')
     genEl.textContent = gen
-    console.log("Clciked")
 }
 
 function backgruondEvent() {
     document.body.style.backgroundColor = 'black'
     document.body.style.color = 'white'
-    console.log("Theme")
 }
 
 function backgruondEvent1() {
     document.body.style.backgroundColor = 'white'
     document.body.style.color = 'black'
-    console.log("Theme2")
+}
+
+function resetEvent(){
+    let nameEl = document.querySelector('#outName')
+    let mailEl = document.querySelector('#outMail-Id')
+    let numEl = document.querySelector('#outcellNumber')
+    let dobEl = document.querySelector('#outGender')
 }
