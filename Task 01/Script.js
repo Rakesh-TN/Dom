@@ -37,8 +37,5 @@ function backgruondEvent1() {
 }
 
 function resetEvent(){
-    let nameEl = document.querySelector('#outName')
-    let mailEl = document.querySelector('#outMail-Id')
-    let numEl = document.querySelector('#outcellNumber')
-    let dobEl = document.querySelector('#outGender')
+    
 }
