@@ -2,7 +2,9 @@
 body{
     font-family: 'Handjet', cursive;
 }
-
+.manhatten{
+    padding: 20px;
+}
 .button_theme{
     float: right;
 }

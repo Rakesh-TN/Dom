@@ -34,8 +34,11 @@ function backgruondEvent() {
 function backgruondEvent1() {
     document.body.style.backgroundColor = 'white'
     document.body.style.color = 'black'
+    
 }
 
 function resetEvent(){
-    
+    nameEl = document.querySelector('#outName')
+    let FullName = document.querySelector('')
+    nameEl.textContent = FullName
 }
